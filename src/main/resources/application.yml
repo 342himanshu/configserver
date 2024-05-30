@@ -2,16 +2,16 @@ spring:
   application:
     name: "configserver"
   profiles:
-    # active: native
+#    active: native
     active: git
   cloud:
     config:
       server:
-        # native:
-          # search-locations: "classpath:/config"
-          # search-locations: "file:///Users//eazybytes//Documents//config"
+#         native:
+#           search-locations: "classpath:/config"
+#          search-locations: "file:///Users//eazybytes//Documents//config"
         git:
-          uri: "git@github.com:342himanshu/microservices.git"
+          uri: "https://github.com/342himanshu/microservice-config.git"
           default-label: main
           timeout: 5
           clone-on-start: true
