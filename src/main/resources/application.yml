@@ -9,7 +9,7 @@ spring:
       server:
 #         native:
 #           search-locations: "classpath:/config"
-#          search-locations: "file:///Users//eazybytes//Documents//config"
+#          search-locations: "file:///Users//hkumar//Documents//config"
         git:
           uri: "https://github.com/342himanshu/microservice-config.git"
           default-label: main
